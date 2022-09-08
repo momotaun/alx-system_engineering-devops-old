@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$((10#$(BINARY)))\n"
+echo "obase=2;BINARY" | bc
